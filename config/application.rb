@@ -31,7 +31,5 @@ module TimeToAnswer
     # Don't generate system test files.
     config.generators.system_tests = nil
 
-    # Permite web console a partir do vagrant
-    config.web_console.whitelisted_ips = '10.0.2.2'
   end
 end

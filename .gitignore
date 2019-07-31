@@ -25,11 +25,7 @@
 /yarn-error.log
 
 /public/assets
-/public/templates
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-
-# Ignore database.yml
-/config/database.yml
