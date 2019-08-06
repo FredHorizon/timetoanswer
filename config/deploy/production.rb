@@ -37,6 +37,8 @@ role :db, %w{deploy@3.15.163.144}
 
 # Custom SSH Options
 # ==================
+# ssh_options[:keys] = ["~/.ssh/awskey.pem"]
+ssh_options = {keys: ["#{ENV['HOME']}/.ssh/awskey.pem"], forward_agent: true}
 # You may pass any option but keep in mind that net/ssh understands a
 # limited set of options, consult the Net::SSH documentation.
 # http://net-ssh.github.io/net-ssh/classes/Net/SSH.html#method-c-start
